@@ -7,3 +7,17 @@ function showProject(){
         projects.style.display="grid";
     }
 }
+
+var typed = new Typed('#element', {
+
+         strings: [
+            'Full Stack Developer',
+            'Python Developer',
+            'BSc Computer Science Student'
+         ],
+
+         typeSpeed: 60,
+         backSpeed: 40,
+         loop: true
+
+      });
